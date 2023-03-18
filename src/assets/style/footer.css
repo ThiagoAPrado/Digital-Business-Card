@@ -1,0 +1,17 @@
+.footer-container {
+    width: 320px;
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e9ecef;
+}
+
+.footer-container-icon {
+    display: flex;
+    color: #212529;
+}
+
+.footer-icon {
+    width: 3rem;
+}

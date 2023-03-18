@@ -1,0 +1,38 @@
+@media(min-width: 320px) {
+    
+    .container{
+        width: 320px;
+        margin: 3rem 0;
+        box-shadow: 10px 10px 50px #adb5bd;
+    }
+
+    .footer-container {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .container {
+        border-radius: 20px;
+    }
+
+    .header-profile_img {
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+@media(max-width: 375px) {
+    .container {
+        margin: 0;
+    }
+
+    .footer-container {
+        border-radius: 0;
+    }
+
+    .container {
+        border-radius: 0;
+    }
+
+    .header-profile_img {
+        border-radius: 0;
+    }
+}

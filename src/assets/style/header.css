@@ -1,0 +1,28 @@
+.header-profile_img {
+    margin-bottom: 2rem;
+    width: 320px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1.5rem;
+    border-left: 2px dashed #495057;
+}
+
+.header-title--name {
+    font-size: 2rem;
+    color: #212529;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-top: 0;
+}
+
+.header-title--profession {
+    margin-top: .2rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: #e09f3e;
+}

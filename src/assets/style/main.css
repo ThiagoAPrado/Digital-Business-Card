@@ -1,0 +1,48 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+}   
+    
+.main-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.main-button--linkedin {
+    background-color: #45ade9;
+}
+
+.main-button--portifolio {
+    background-color: #dee2e6;
+}
+
+.main-button--portifolio, .main-button--linkedin {
+    width: 7rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    transition: 200ms all;
+    font-size: 1.2rem;
+    color: #1b263b;
+    cursor: pointer;
+}
+
+.main-button--portifolio:hover, .main-button--linkedin:hover {
+    background-color: #e09f3e;
+    color: #f8f9fa;
+}
+
+.main-title {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    color: #212529;
+}
+
+.main-paragraph {
+    font-size: 1rem;
+    color: #495057;
+    letter-spacing: .05rem;
+}

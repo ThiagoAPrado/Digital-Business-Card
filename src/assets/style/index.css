@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #f8f9fa;
+    color: #f8f9fa;
+}
